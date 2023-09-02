@@ -49,24 +49,28 @@ void Cycle_finish() {
     }
 }
 
-void ABreak() {
-  brk = 0;
-  delay(1);
+void Start_break()
+{
   digitalWrite(BreakOutput, 1);
-  interrupts();
-  delay(100);
-  digitalWrite(BreakOutput, 0);
-  delay(1);
+  startBreak=millis();
 }
 
-void loop() {
-  if (brk == 1) {
-    noInterrupts()
-    ABreak();
-  }
+void Stop_break()
+{
+  brk=0;
+  digitalWrite(BreakOutput,0);
+}
 
-  if (analogRead(modePin) > 55) mode = 0;
-  else mode = 1;  //0=fullauto , 1=semiauto
+unsigned long int startBreak=0;
+void loop() {
+  noInterrupts();
+  if (brk == 1 && digitalRead(BreakOutput)==0)
+    Start_break();
+  interrupts();
+
+  if(digitalRead(BreakOutput)==1 && milis()-startBreak>=100)
+    Stop_break();
+  if (analogRead(modePin) > 55) mode = 0; else mode = 1;  //0=fullauto , 1=semiauto
 }
 
 /*
