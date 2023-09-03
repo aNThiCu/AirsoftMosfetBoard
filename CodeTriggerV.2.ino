@@ -1,7 +1,9 @@
 //pins
+  //input
 int triggerPin = PIN_PC0;
 int cyclePin = PIN_PA1;
 int modePin = PIN_PB0;
+  //output
 int NmosOutput = PIN_PA5;
 int BreakOutput = PIN_PB5;
 //logic
@@ -12,17 +14,18 @@ bool brk = 0;
 unsigned long int startBreak=0;
 
 void setup() {
-  Serial.begin(9600);
+  //Input Init
   pinMode(triggerPin, INPUT_PULLUP);
   pinMode(cyclePin, INPUT);
   pinMode(modePin, INPUT);
+  //Output Init
   pinMode(NmosOutput, OUTPUT);
   pinMode(BreakOutput, OUTPUT);
+  //Output Value Init
   analogWrite(NmosOutput, 0);
   digitalWrite(BreakOutput, 0);
   attachInterrupt(digitalPinToInterrupt(triggerPin), Start_shoot, FALLING);
   attachInterrupt(digitalPinToInterrupt(cyclePin), Cycle_finish, RISING);
-  delay(1000);
 }
 
 void Start_shoot() {
@@ -37,11 +40,11 @@ void Start_shoot() {
 void Cycle_finish() {
   if (shooting == true)
   {
-    if (mode == 1) {
+    if (mode == 1) {//Semi-auto
       analogWrite(NmosOutput, 0);
       shooting = false;
       brk = 1;
-    } else if (digitalRead(triggerPin) == 1) {
+    } else if (digitalRead(triggerPin) == 1) {//Full-auto
       analogWrite(NmosOutput, 0);
       shooting = false;
       brk = 1; 
@@ -61,8 +64,6 @@ void Stop_break()
   digitalWrite(BreakOutput,0);
 }
 
-
-
 void loop() {
   noInterrupts();
   if (brk == 1 && digitalRead(BreakOutput)==0)
@@ -71,6 +72,6 @@ void loop() {
 
   if(digitalRead(BreakOutput)==1 && millis()-startBreak>=100)
     Stop_break();
-  
+
   if (analogRead(modePin) > 55) mode = 0; else mode = 1;  //0=fullauto , 1=semiauto
 }
