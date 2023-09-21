@@ -127,22 +127,13 @@ void Cycle_finish() {
     break;
   }
 
-  if (firingMode == 1) {//Semi-auto
-    analogWrite(NmosOutput, 0);
-    brk = 1;
-  } else if (digitalRead(triggerPin) == 1) {//Full-auto
-    analogWrite(NmosOutput, 0);
-    brk = 1; 
-  }
-
   if(binaryTrigger==true)
       attachInterrupt(digitalPinToInterrupt(triggerPin), Start_shoot, CHANGE);
     else
       attachInterrupt(digitalPinToInterrupt(triggerPin), Start_shoot, FALLING);
 }
 
-void Check_break()
-{
+void Check_break() {
   noInterrupts();
   if (brk == 1 && digitalRead(BreakOutput)==0)
     Start_break();
@@ -152,14 +143,12 @@ void Check_break()
     Stop_break();
 }
 
-void Start_break()
-{
+void Start_break() {
   digitalWrite(BreakOutput, 1);
   startBreak=millis();
 }
 
-void Stop_break()
-{
+void Stop_break() {
   brk=0;
   digitalWrite(BreakOutput,0);
 }
