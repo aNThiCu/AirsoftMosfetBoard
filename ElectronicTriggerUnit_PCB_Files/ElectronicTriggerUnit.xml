@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\My Drive\AirsoftMosfetBoard\TriggerBoard_V4.4\PCBTRIGGERASSEMBLY.kicad_sch</source>
+    <date>2/11/2024 3:17:28 AM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PCBTRIGGERASSEMBLY.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acb71a8f-8491-4867-8b62-3e270976a73b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91b686ef-b721-4ac7-beb1-1f1c8a29ef12</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dcc3db9-69f5-4c91-835d-209b140e7168</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2aff0a8-f473-4e92-a782-d0397d41c2ac</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f526c9-906e-4720-92e4-141ad5664b41</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82bb4600-7ba0-4de7-a8a1-d26aeb88389c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>SamacSys_Parts:SBR3U60P1Q7</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7616cbf8-f7bd-45db-b0c1-a8bbd8bc2d07</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>A1304ELHLX-T</value>
+      <footprint>SamacSys_Parts:SOT95P285X113-3N</footprint>
+      <datasheet>https://www.allegromicro.com/~/media/Files/Datasheets/A1304-Datasheet.ashx</datasheet>
+      <fields>
+        <field name="Height">1.13</field>
+        <field name="Manufacturer_Name">Allegro Microsystems</field>
+        <field name="Manufacturer_Part_Number">A1304ELHLX-T</field>
+        <field name="Mouser Part Number">250-A1304ELHLX-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A1304ELHLX-T?qs=pUKx8fyJudAusJE3kMIvRw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="A1304ELHLX-T" description="Linear Hall-Effect Sensor IC With Analog Output "/>
+      <property name="Height" value="1.13"/>
+      <property name="Mouser Part Number" value="250-A1304ELHLX-T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A1304ELHLX-T?qs=pUKx8fyJudAusJE3kMIvRw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Allegro Microsystems"/>
+      <property name="Manufacturer_Part_Number" value="A1304ELHLX-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Linear Hall-Effect Sensor IC With Analog Output "/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6280240-1c8b-4102-b724-35d1e2d069be</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>ATTINY816-MNR</value>
+      <footprint>SamacSys_Parts:QFN40P300X300X90-21N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ATTINY816-MNR.pdf</datasheet>
+      <fields>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">ATTINY816-MNR</field>
+        <field name="Mouser Part Number">579-ATTINY816-MNR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY816-MNR?qs=4HkvMi8iULsHXKAfd6S19Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ATTINY816-MNR" description="8-bit Microcontrollers - MCU AVR 8-bit Microcontroller"/>
+      <property name="Height" value="0.9"/>
+      <property name="Mouser Part Number" value="579-ATTINY816-MNR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY816-MNR?qs=4HkvMi8iULsHXKAfd6S19Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="ATTINY816-MNR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="8-bit Microcontrollers - MCU AVR 8-bit Microcontroller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be5902cf-cc49-417d-a5a8-d367bb79ece3</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>IRS44273LTRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P280X130-5N</footprint>
+      <datasheet>https://www.infineon.com/cms/en/product/power/gate-driver-ics/?</datasheet>
+      <fields>
+        <field name="Height">1.3</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRS44273LTRPBF</field>
+        <field name="Mouser Part Number">942-IRS44273LTRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS44273LTRPBF?qs=mm%2F7efQvNxqxS8rwPY9f8Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="IRS44273LTRPBF" description="Single Low-Side Driver 1.5A SOT23-5 Infineon IRS44273LTRPBF, MOSFET Power Driver, +/-1.5 (High Circuit/Low Circuit)A, -0.3  20 V, Non-Inverting"/>
+      <property name="Height" value="1.3"/>
+      <property name="Mouser Part Number" value="942-IRS44273LTRPBF"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS44273LTRPBF?qs=mm%2F7efQvNxqxS8rwPY9f8Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="IRS44273LTRPBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Single Low-Side Driver 1.5A SOT23-5 Infineon IRS44273LTRPBF, MOSFET Power Driver, +/-1.5 (High Circuit/Low Circuit)A, -0.3  20 V, Non-Inverting"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd7f9733-57f0-4d39-9dd6-b7621bb08e53</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>IRS44273LTRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P280X130-5N</footprint>
+      <datasheet>https://www.infineon.com/cms/en/product/power/gate-driver-ics/?</datasheet>
+      <fields>
+        <field name="Height">1.3</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRS44273LTRPBF</field>
+        <field name="Mouser Part Number">942-IRS44273LTRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS44273LTRPBF?qs=mm%2F7efQvNxqxS8rwPY9f8Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="IRS44273LTRPBF" description="Single Low-Side Driver 1.5A SOT23-5 Infineon IRS44273LTRPBF, MOSFET Power Driver, +/-1.5 (High Circuit/Low Circuit)A, -0.3  20 V, Non-Inverting"/>
+      <property name="Height" value="1.3"/>
+      <property name="Mouser Part Number" value="942-IRS44273LTRPBF"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS44273LTRPBF?qs=mm%2F7efQvNxqxS8rwPY9f8Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="IRS44273LTRPBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Single Low-Side Driver 1.5A SOT23-5 Infineon IRS44273LTRPBF, MOSFET Power Driver, +/-1.5 (High Circuit/Low Circuit)A, -0.3  20 V, Non-Inverting"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>601b17f6-f6a4-46e5-aa60-2ff4c332c383</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec8c5b71-2803-4104-944b-c81178701083</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bdafa3f-7ba4-4b3f-a69e-a242ff2da166</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Mode_select_IRLed</value>
+      <footprint>SamacSys_Parts:LEDC2012X105N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APTD2012SF4C.pdf</datasheet>
+      <fields>
+        <field name="Description">Infrared Emitters 2x1.2mm IR SMD</field>
+        <field name="Height">1.05</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APTD2012SF4C</field>
+        <field name="Mouser Part Number">604-APTD2012SF4C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APTD2012SF4C?qs=w%2Fv1CP2dgqr55s4aH3ruIw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APTD2012SF4C" description="Infrared Emitters 2x1.2mm IR SMD"/>
+      <property name="Description" value="Infrared Emitters 2x1.2mm IR SMD"/>
+      <property name="Height" value="1.05"/>
+      <property name="Mouser Part Number" value="604-APTD2012SF4C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APTD2012SF4C?qs=w%2Fv1CP2dgqr55s4aH3ruIw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012SF4C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Infrared Emitters 2x1.2mm IR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02f27d80-c668-40d9-8ba1-cb2101c27ecb</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>XL-2012IRC-940</value>
+      <footprint>SamacSys_Parts:LEDC2012X105N</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/APTD2012SF4C.pdf</datasheet>
+      <fields>
+        <field name="Description">Infrared Emitters 2x1.2mm IR SMD</field>
+        <field name="Height">1.05</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APTD2012SF4C</field>
+        <field name="Mouser Part Number">604-APTD2012SF4C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APTD2012SF4C?qs=w%2Fv1CP2dgqr55s4aH3ruIw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="APTD2012SF4C" description="Infrared Emitters 2x1.2mm IR SMD"/>
+      <property name="Description" value="Infrared Emitters 2x1.2mm IR SMD"/>
+      <property name="Height" value="1.05"/>
+      <property name="Mouser Part Number" value="604-APTD2012SF4C"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APTD2012SF4C?qs=w%2Fv1CP2dgqr55s4aH3ruIw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="APTD2012SF4C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Infrared Emitters 2x1.2mm IR SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a091f9e2-8d4d-4d32-b03f-0d62b67a21b6</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>Rev_IRLed</value>
+      <footprint>SamacSys_Parts:APA3010P3C</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103191537_Everlight-Elec-LKIR30102C-A01-DY_C2759909.pdf</datasheet>
+      <fields>
+        <field name="Description">20mA 940nm Colorless transparence -25℃~+85℃ 160° 130mW SMD,2x3mm Light Emitting Diodes (LED) ROHS</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">CSL1501RW1</field>
+        <field name="Mouser Part Number">755-CSL1501RW1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/CSL1501RW1?qs=eP2BKZSCXI4ghwSrPECUqQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CSL1501RW1" description="PICOLED, Side-view and Ultra-compact, 860nm Infrared LED"/>
+      <property name="Description" value="20mA 940nm Colorless transparence -25℃~+85℃ 160° 130mW SMD,2x3mm Light Emitting Diodes (LED) ROHS"/>
+      <property name="Height" value="1"/>
+      <property name="Mouser Part Number" value="755-CSL1501RW1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/CSL1501RW1?qs=eP2BKZSCXI4ghwSrPECUqQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="ROHM Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="CSL1501RW1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="PICOLED, Side-view and Ultra-compact, 860nm Infrared LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7157fd2-7969-454f-a8c5-69dde8689e15</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Mode_Select_Phototransistor</value>
+      <footprint>SamacSys_Parts:AP1608P1CP22</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AP1608P1C-P22.pdf</datasheet>
+      <fields>
+        <field name="Description">Phototransistors 940nm Top View 0603 (1608 Metric)</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">AP1608P1C-P22</field>
+        <field name="Mouser Part Number">604-AP1608P1C-P22</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=604-AP1608P1C-P22</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AP1608P1C-P22" description="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <property name="Description" value="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="604-AP1608P1C-P22"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=604-AP1608P1C-P22"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="AP1608P1C-P22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6f7ae68-7a8f-450c-98d8-b97e5377130f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Rev_Phototransistor</value>
+      <footprint>SamacSys_Parts:APA3010P3C</footprint>
+      <libsource lib="Device" part="Q_Photo_NPN_CE" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8710d558-2f36-43e1-be6e-ee56e5e46b30</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>NMOS</value>
+      <footprint>SamacSys_Parts:POWERPAKSO-8</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34b228a3-367b-43eb-84b9-a5f4f95f0e1e</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>LC191PTDT</value>
+      <footprint>SamacSys_Parts:AP1608P1CP22</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AP1608P1C-P22.pdf</datasheet>
+      <fields>
+        <field name="Description">Phototransistors 940nm Top View 0603 (1608 Metric)</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">AP1608P1C-P22</field>
+        <field name="Mouser Part Number">604-AP1608P1C-P22</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=604-AP1608P1C-P22</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AP1608P1C-P22" description="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <property name="Description" value="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="604-AP1608P1C-P22"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=604-AP1608P1C-P22"/>
+      <property name="Manufacturer_Name" value="Kingbright"/>
+      <property name="Manufacturer_Part_Number" value="AP1608P1C-P22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Phototransistors 940nm Top View 0603 (1608 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df0b42d8-b9b0-4b2e-bbc6-8764d1b29a98</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>PMOS</value>
+      <footprint>SamacSys_Parts:POWERPAKSO-8</footprint>
+      <datasheet>https://www.vishay.com/docs/65596/si7141dp.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="Si7141DP" description="60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c3618b-74bd-4176-a2af-dd2932a5279b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66c6a704-e987-436e-9123-4d8e38003fd7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f4b101-3043-4523-8ad7-5ad6619341b6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>660f1724-1f2c-45f5-b93f-8987d2924609</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c065e6ee-c31e-408f-bc94-b928db7c5bf5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b89ce79-d2f1-45b4-aed0-963d75a8456d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a44c0bc-1f33-40f7-a8d3-578cef5a45e5</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cc9c8e0-e9c4-4bc9-875e-7808a136df98</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8b06f46-86d9-46ca-9f1e-27d209a7cfc8</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cac18224-736f-4909-af42-5b84208e4735</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8432344-c3a6-4e9a-ae12-74b6b4b89222</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Trigger</value>
+      <footprint>SamacSys_Parts:463092691402</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/463092691402.pdf</datasheet>
+      <fields>
+        <field name="Description">Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf</field>
+        <field name="Height">5.95</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">463092691402</field>
+        <field name="Mouser Part Number">710-463092691402</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/463092691402?qs=iLbezkQI%252BsiNPC3GZqKuHg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="463092691402" description="Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf"/>
+      <property name="Description" value="Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf"/>
+      <property name="Height" value="5.95"/>
+      <property name="Mouser Part Number" value="710-463092691402"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/463092691402?qs=iLbezkQI%252BsiNPC3GZqKuHg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="463092691402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e5f2ba-84df-4214-b7b2-f6087176c398</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>H7333-A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317l.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317L_SOT-89" description="100mA 35V Adjustable Linear Regulator, SOT-89"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <property name="ki_description" value="100mA 35V Adjustable Linear Regulator, SOT-89"/>
+      <property name="ki_keywords" value="Adjustable Voltage Regulator 1A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c9fd15f-cfee-4217-a2af-46d6937264db</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>12v</value>
+      <footprint>SamacSys_Parts:Copper_pad</footprint>
+      <libsource lib="Copper_Pad" part="Copper_pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eec50bbe-b46f-42e8-84da-ee4197b00073</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Trigger</value>
+      <footprint>SamacSys_Parts:Copper_pad</footprint>
+      <libsource lib="Copper_Pad" part="Copper_pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ec1bdb9-5423-4a29-8dc4-fdad7e9dc88c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Gnd</value>
+      <footprint>SamacSys_Parts:Copper_pad</footprint>
+      <libsource lib="Copper_Pad" part="Copper_pad" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCBTRIGGERASSEMBLY.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7065445f-5fbc-4c20-959b-de226506bf59</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Copper_Pad" part="Copper_pad">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Copper_pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Con" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Photo_NPN_CE">
+      <description>NPN phototransistor, collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Photo_NPN_CE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317L_SOT-89">
+      <description>100mA 35V Adjustable Linear Regulator, SOT-89</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317l.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317L_SOT-89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317l.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="463092691402">
+      <description>Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf</description>
+      <docs>https://www.we-online.com/catalog/datasheet/463092691402.pdf</docs>
+      <fields>
+        <field name="Reference">S1</field>
+        <field name="Value">463092691402</field>
+        <field name="Footprint">SamacSys_Parts:463092691402</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/463092691402.pdf</field>
+        <field name="Description">Basic / Snap Action Switches WS-MITV Micro Switch RA Psh Typ 80gf</field>
+        <field name="Height">5.95</field>
+        <field name="Mouser Part Number">710-463092691402</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/463092691402?qs=iLbezkQI%252BsiNPC3GZqKuHg%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">463092691402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="NO" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="A1304ELHLX-T">
+      <description>Linear Hall-Effect Sensor IC With Analog Output </description>
+      <docs>https://www.allegromicro.com/~/media/Files/Datasheets/A1304-Datasheet.ashx</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">A1304ELHLX-T</field>
+        <field name="Footprint">SOT95P285X113-3N</field>
+        <field name="Datasheet">https://www.allegromicro.com/~/media/Files/Datasheets/A1304-Datasheet.ashx</field>
+        <field name="Height">1.13</field>
+        <field name="Mouser Part Number">250-A1304ELHLX-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/A1304ELHLX-T?qs=pUKx8fyJudAusJE3kMIvRw%3D%3D</field>
+        <field name="Manufacturer_Name">Allegro Microsystems</field>
+        <field name="Manufacturer_Part_Number">A1304ELHLX-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AP1608P1C-P22">
+      <description>Phototransistors 940nm Top View 0603 (1608 Metric)</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/AP1608P1C-P22.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AP1608P1C-P22</field>
+        <field name="Footprint">AP1608P1CP22</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/AP1608P1C-P22.pdf</field>
+        <field name="Description">Phototransistors 940nm Top View 0603 (1608 Metric)</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">604-AP1608P1C-P22</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=604-AP1608P1C-P22</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">AP1608P1C-P22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="APTD2012SF4C">
+      <description>Infrared Emitters 2x1.2mm IR SMD</description>
+      <docs>http://www.kingbrightusa.com/images/catalog/SPEC/APTD2012SF4C.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">APTD2012SF4C</field>
+        <field name="Footprint">LEDC2012X105N</field>
+        <field name="Datasheet">http://www.kingbrightusa.com/images/catalog/SPEC/APTD2012SF4C.pdf</field>
+        <field name="Description">Infrared Emitters 2x1.2mm IR SMD</field>
+        <field name="Height">1.05</field>
+        <field name="Mouser Part Number">604-APTD2012SF4C</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kingbright/APTD2012SF4C?qs=w%2Fv1CP2dgqr55s4aH3ruIw%3D%3D</field>
+        <field name="Manufacturer_Name">Kingbright</field>
+        <field name="Manufacturer_Part_Number">APTD2012SF4C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ATTINY816-MNR">
+      <description>8-bit Microcontrollers - MCU AVR 8-bit Microcontroller</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ATTINY816-MNR.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY816-MNR</field>
+        <field name="Footprint">QFN40P300X300X90-21N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ATTINY816-MNR.pdf</field>
+        <field name="Height">0.9</field>
+        <field name="Mouser Part Number">579-ATTINY816-MNR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY816-MNR?qs=4HkvMi8iULsHXKAfd6S19Q%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">ATTINY816-MNR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3/EXTCLK" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB5" type="bidirectional"/>
+        <pin num="10" name="PB4" type="bidirectional"/>
+        <pin num="11" name="PB3/TOCS1" type="bidirectional"/>
+        <pin num="12" name="PB2/TOSC2" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB0" type="passive"/>
+        <pin num="15" name="PC0" type="bidirectional"/>
+        <pin num="16" name="PC1" type="bidirectional"/>
+        <pin num="17" name="PC2" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="PA0/~{RESET}/UPDI" type="bidirectional"/>
+        <pin num="20" name="PA1" type="bidirectional"/>
+        <pin num="21" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CSL1501RW1">
+      <description>PICOLED, Side-view and Ultra-compact, 860nm Infrared LED</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/infrared_led/csl1501rw-e.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">CSL1501RW1</field>
+        <field name="Footprint">CSL1501RW1</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/infrared_led/csl1501rw-e.pdf</field>
+        <field name="Description">PICOLED, Side-view and Ultra-compact, 860nm Infrared LED</field>
+        <field name="Height">0.58</field>
+        <field name="Mouser Part Number">755-CSL1501RW1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/CSL1501RW1?qs=eP2BKZSCXI4ghwSrPECUqQ%3D%3D</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">CSL1501RW1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="IRS44273LTRPBF">
+      <description>Single Low-Side Driver 1.5A SOT23-5 Infineon IRS44273LTRPBF, MOSFET Power Driver, +/-1.5 (High Circuit/Low Circuit)A, -0.3  20 V, Non-Inverting</description>
+      <docs>https://www.infineon.com/cms/en/product/power/gate-driver-ics/?</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">IRS44273LTRPBF</field>
+        <field name="Footprint">SOT95P280X130-5N</field>
+        <field name="Datasheet">https://www.infineon.com/cms/en/product/power/gate-driver-ics/?</field>
+        <field name="Height">1.3</field>
+        <field name="Mouser Part Number">942-IRS44273LTRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRS44273LTRPBF?qs=mm%2F7efQvNxqxS8rwPY9f8Q%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRS44273LTRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="COM" type="power_in"/>
+        <pin num="3" name="OUT_1" type="output"/>
+        <pin num="4" name="OUT_2" type="power_in"/>
+        <pin num="5" name="VCC" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="NMOS">
+      <description>N-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</docs>
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">NMOS</field>
+        <field name="Footprint">SamacSys_Parts:POWERPAKSO-8</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="output"/>
+        <pin num="6" name="6" type="output"/>
+        <pin num="7" name="7" type="output"/>
+        <pin num="8" name="8" type="output"/>
+        <pin num="9" name="9" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="Si7141DP">
+      <description>60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8</description>
+      <docs>https://www.vishay.com/docs/65596/si7141dp.pdf</docs>
+      <footprints>
+        <fp>PowerPAK*SO*Single*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q8</field>
+        <field name="Value">PMOS</field>
+        <field name="Footprint">SamacSys_Parts:POWERPAKSO-8</field>
+        <field name="Datasheet">https://www.vishay.com/docs/65596/si7141dp.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\KiCad\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\KiCad\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>G:/My Drive/KicadLibraryLoader/SamacSys_Parts.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>D:\KiCad\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\KiCad\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC5" pin="5" pinfunction="VCC" pintype="output"/>
+      <node ref="IC6" pin="5" pinfunction="VCC" pintype="output"/>
+      <node ref="Q8" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="Con" pintype="input"/>
+    </net>
+    <net code="3" name="/ACTIVE_BREAK">
+      <node ref="IC3" pin="9" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="IC5" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="4" name="/NMOS">
+      <node ref="IC3" pin="6" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="IC6" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="5" name="/RX">
+      <node ref="IC3" pin="11" pinfunction="PB3/TOCS1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Semi_Auto">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="14" pinfunction="PB0" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/TX">
+      <node ref="IC3" pin="12" pinfunction="PB2/TOSC2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/V_Cycle">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="20" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/pwr_motor">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="5" pintype="output"/>
+      <node ref="Q3" pin="6" pinfunction="6" pintype="output"/>
+      <node ref="Q3" pin="7" pinfunction="7" pintype="output"/>
+      <node ref="Q3" pin="8" pinfunction="8" pintype="output"/>
+      <node ref="Q3" pin="9" pinfunction="9" pintype="output"/>
+      <node ref="Q8" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="Q8" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="Q8" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="Q8" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="Con" pintype="input"/>
+    </net>
+    <net code="10" name="/trigger">
+      <node ref="IC2" pin="2" pinfunction="VOUT" pintype="passive"/>
+      <node ref="IC3" pin="15" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="S1" pin="2" pinfunction="NO" pintype="passive"/>
+    </net>
+    <net code="11" name="/updiRx">
+      <node ref="IC3" pin="19" pinfunction="PA0/~{RESET}/UPDI" pintype="bidirectional"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/updiTx">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC3" pin="21" pinfunction="EP" pintype="power_in"/>
+      <node ref="IC3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC5" pin="2" pinfunction="COM" pintype="power_in"/>
+      <node ref="IC6" pin="2" pinfunction="COM" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LED1" pin="1" pintype="passive"/>
+      <node ref="LED2" pin="1" pintype="passive"/>
+      <node ref="LED2" pin="2" pintype="passive"/>
+      <node ref="LED4" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="Q3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="NC" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="Con" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(IC5-OUT_1)">
+      <node ref="IC5" pin="3" pinfunction="OUT_1" pintype="output"/>
+      <node ref="IC5" pin="4" pinfunction="OUT_2" pintype="power_in"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC6-OUT_1)">
+      <node ref="IC6" pin="3" pinfunction="OUT_1" pintype="output"/>
+      <node ref="IC6" pin="4" pinfunction="OUT_2" pintype="power_in"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q3-Pad4)">
+      <node ref="Q3" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q8-G)">
+      <node ref="Q8" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(IC3-PA2-Pad1)">
+      <node ref="IC3" pin="1" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(IC3-PA3{slash}EXTCLK-Pad2)">
+      <node ref="IC3" pin="2" pinfunction="PA3/EXTCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(IC3-PA4-Pad5)">
+      <node ref="IC3" pin="5" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(IC3-PA6-Pad7)">
+      <node ref="IC3" pin="7" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(IC3-PA7-Pad8)">
+      <node ref="IC3" pin="8" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(IC3-PB1-Pad13)">
+      <node ref="IC3" pin="13" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(IC3-PB4-Pad10)">
+      <node ref="IC3" pin="10" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(IC3-PC1-Pad16)">
+      <node ref="IC3" pin="16" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(IC3-PC2-Pad17)">
+      <node ref="IC3" pin="17" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(IC3-PC3-Pad18)">
+      <node ref="IC3" pin="18" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pin_1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
