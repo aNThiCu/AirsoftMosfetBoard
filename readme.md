@@ -1,18 +1,21 @@
-This is the latest stable version that currently works on my airsoft replica without any problems.
+This is untested , unstable hardware. The main focus of this version was creating more room for upgrades and manufacturability at home.
 
-Development was stalled for a while because of a high speed motor that drew a ton of amps on start-up , frying some of my mosfets randomly. Low TPA motors (11 TPA in my case) are not advised for this ETU version
-for multiple reasons:
+The hardware now consists of 2 PCB's one being the control center and the other the necessary sensors. This makes the board be less prone to shorts or mechanical stress from the gearbox of the replica.
+The control board will sit inside the buffer tube while the sensor board will stay in the same position.
 
-	-random failure of mosfet
-	-if the battery doesn't have enough discharge rate the microcontroller will restart on trigger pull
-	voltage drop too big for LDO to work.
+Being able to make the PCB's at home saves a whole lot of time so the following changes have been made:
 
-Even though there is a PMOS for active brake , i do not use it in my code for this version as i want to get a perfect NMOS only version first.
-You can just ignore the parts linked to the active brake feature , list of references:
+    -thick traces of 0.5 width and up , resulting in the need of a less precise CNC
+    -most of the traces are only on the front side , thanks to splitting the components across 2 boards
+    -components added/modified for protection and well functioning of the boards
+    -switched from 5V LDO to 3.3V buck , microcontroller shouldn't reset anymore while using low discharge rate battery
 
-	-R9,R7,R8
-	-Q5,Q8
+ What's coming next (hopefully):
 
-Diode for flywheel protection is not necessary , i personally don't use it because i haven't had time to test the diode with the new motor, old motor always made it go up in flames , 
-had better chances of survival without it. 
-Serial communication for easier debugging doesn't work for now.
+    -configurable mode selector switch with multiple modes
+    -app for ease of use (mby)
+    -troubleshooting indicators
+    -folder with everything needed for direct manufacturing from a factory
+    -different trigger version (optical/magnetic)
+    -stress testing results
+    -redo of shape for better fitment in V2 gearboxes
