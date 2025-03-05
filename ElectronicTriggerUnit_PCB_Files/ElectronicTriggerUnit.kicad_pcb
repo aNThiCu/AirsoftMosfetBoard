@@ -985,7 +985,7 @@
 		(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x05 2.54mm single row")
 		(property "Reference" "J2"
-			(at -2.65 9.1 360)
+			(at -2.65 9.1 0)
 			(layer "F.SilkS")
 			(uuid "c860e2cd-fed7-4e07-96d5-6629145e37ee")
 			(effects
@@ -996,7 +996,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 0 12.93 360)
+			(at 0 12.93 0)
 			(layer "F.Fab")
 			(uuid "c24be151-bc07-4ede-aa3d-628e1bd7f8ce")
 			(effects
@@ -2732,7 +2732,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "614402e1-104e-4f45-b55e-930ec89e15be")
 			(effects
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "646b48c4-b0c4-41e8-8d20-f9865f8a4f3b")
 			(effects
@@ -2898,7 +2898,7 @@
 			(uuid "01b672c7-c04b-4f77-87be-a765068d298b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f4d210f5-60b9-4052-a55d-c0bd7fda5257")
 			(effects
@@ -3706,7 +3706,7 @@
 		(descr "APA3010P3C-2")
 		(tags "LED")
 		(property "Reference" "Q2"
-			(at -0.270024 3.126418 -15)
+			(at -0.270024 3.126419 -15)
 			(layer "F.SilkS")
 			(uuid "5910aae2-3ce4-42ed-a2ea-cc5c6b0b3169")
 			(effects
@@ -7255,7 +7255,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at -0.0125 -1.5 360)
+			(at -0.0125 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "760846f9-4c82-4e2d-983e-a30946ef81a7")
 			(effects
@@ -7266,7 +7266,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fdf6b4f6-2c2f-4f8b-a6e9-ff84a5d5ef83")
 			(effects
@@ -7421,7 +7421,7 @@
 			(uuid "e51b7c58-cd74-4d7c-a859-ede8108f370a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a11aeada-2ac9-4828-8ad9-8c3033e210a4")
 			(effects
